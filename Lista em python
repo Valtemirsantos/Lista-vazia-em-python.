@@ -1,0 +1,23 @@
+Lista em python.
+
+print("Digite 5 números inteiros. O programa irá mostrar a soma e o maior número entre eles.")
+#Programador Valtemir Santos.
+# Cria uma lista vazia
+numeros = []
+
+# Pede 5 números ao usuário
+for i in range(5):
+    numero = int(input("Digite um número inteiro: "))
+    numeros.append(numero)  # Guarda o número na lista
+
+# Mostra os números digitados
+print("Números digitados:", numeros)
+
+# Calcula e mostra a soma dos números
+soma = sum(numeros)
+print("Soma dos números:", soma)
+
+# Encontra e mostra o maior número
+maior = max(numeros)
+print("Maior número:", maior)
+print("..............................................................................................")
